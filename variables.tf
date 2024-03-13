@@ -29,7 +29,7 @@ variable "instance_profile" {
 }
 
 variable "disk_size" {
-  type        = string
+  type        = number
   description = "The size of the disk attached to the instance"
-  default     = "50"
+  default     = 50
 }
